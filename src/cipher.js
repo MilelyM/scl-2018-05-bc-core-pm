@@ -1,7 +1,8 @@
-/*window.cipher = {
-  encode: () => {*/
-    function Encriptar(){
+window.cipher = {
+ // encode: () => {
+   encode : () => {
       var texto = document.getElementsByTagName("input")[0].value;
+      
       texto = texto.toUpperCase();
     
     //const texto= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -24,15 +25,18 @@
             Codi -=90;
            Codi +=64;
           }
+
          // se tomo el id de htmt para crear una variable y concatenarla al codigo encriptado trasformado en letras
           root = root + String.fromCharCode(Codi);
         // document.writeln(root);
     }
     // envia el resultado al id en htlm
-    document.getElementById("root").innerHTML= root;
- /* }
-  },
+    document.getElementById("root").innerHTML= root.replace(new RegExp('#', 'g'), ' ');
+    //replace remplaza algo dentro del string,Crea un objeto 'expresión regular' para encontrar el espacio, "g"busqueda global
+    
+}/*,
   decode: () => {
     
   }*/
 }
+
