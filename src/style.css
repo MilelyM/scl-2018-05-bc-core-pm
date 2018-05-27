@@ -1,4 +1,8 @@
 /* . es class # id */
 #caja1{
-        width: 35vh;
+        width: 35%;
+
     }
+#caja2{
+    width: 10%;
+}
