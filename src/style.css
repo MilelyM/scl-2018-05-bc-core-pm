@@ -1,8 +1,55 @@
 /* . es class # id */
+.cuerpo{
+    margin: auto;
+    background-size: 25%;
+    background-image: url("https://www.picpng.com/images/large/padlock-photos-34221");
+        background-color: #cccccc00;
+        background-position-x: 100%;
+        background-repeat: repeat-y      
+        
+
+}
+/*la propiedad "display" display es para controlar estructuras.
+ . El valor por defecto para la mayoría de los
+ elementos es usualmente block (de bloque) o inline (en línea*/
+.button1,.button2{
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+        background-color: rgb(121, 141, 141);
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+}
+
+ 
+h1{
+    font-family: 'Bangers', cursive;
+    background: linear-gradient(-90deg,white,grey);
+   width: 100%;
+    text-align:center;
+    font-size: 3em;
+    color: rgb(4, 11, 12)
+}
+
 #caja1{
-        width: 35%;
+        width: 50%;
+        line-height: 500%;
+        
+        
 
     }
 #caja2{
-    width: 10%;
+    width: 20%;
+    
+}
+
+#resultado{
+    width: 50%;
+    line-height: 500%;
+    background-color: aquamarine
+    
+
 }

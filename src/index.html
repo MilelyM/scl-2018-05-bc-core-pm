@@ -3,20 +3,26 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
+  <link href = "https://fonts.googleapis.com/css?family= Bangers | Satisfy " rel = "stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-<h1>Cifrado Cesar</h1>
+<body class = "cuerpo">
+<h1>CIFRADO CESAR</h1>
 <!-se llama en css con un id>
-Inserte Mensaje Aqui<br><input id="caja1" type="text"/><br>
+<br>
+Inserte Mensaje Aqui<br><textarea id="caja1" ></textarea>
+<br>
 Inserte Clave Aqui<br><input id="caja2" type="text"/><br>
-<!-boton llama a la funcion Encriptar llamar con cipher.>
+<!-boton llama a la funcion Encriptar llamar con cifrarClick.>
 
-<button  onclick="cifrarClick()">Encriptar</button>
-<button  onclick="cifrarClick2()">Desencriptar</button><br>
-  
-<div id="root"></div>
-<div Id= "resultado"></div>
+<button class="button1"  onclick="cifrarClick()">Encriptar</button>
+<button class="button2" onclick="cifrarClick2()">Desencriptar</button><br>
+<div Id= "img"></div>
+
+<br><textarea Id= "resultado" ></textarea><br>
+
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
